@@ -2,26 +2,25 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="@drawable/atoz"
+    android:background="@drawable/s3"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/gradietbackground">
+        android:background="@color/colorPrimary">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_intro"
+
             android:textSize="30sp"
             android:maxLength="24"
             android:maxLines="1"
             android:textColor="#fff"
-            android:fontFamily="casual"
             android:textStyle="bold"/>
     </android.support.v7.widget.Toolbar>
 
@@ -50,7 +49,7 @@
                 <android.support.v7.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="120dp"
-                    app:cardElevation="18dp"
+                    app:cardElevation="22dp"
                     android:layout_margin="5dp"
                     android:layout_weight="2"
                     android:id="@+id/a"
@@ -61,31 +60,34 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="A"
+                        android:text="A a"
                         android:textColor="#000"
                         android:textSize="54sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
 
 
                 <android.support.v7.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="120dp"
-                    app:cardElevation="18dp"
+                    app:cardElevation="22dp"
                     android:layout_weight="2"
                     android:layout_margin="5dp"
                     android:id="@+id/b"
                     app:cardCornerRadius="12dp">
+
                     <TextView
-                        android:gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="B"
+                        android:gravity="center"
+                        android:text="B b"
                         android:textColor="#000"
+                        android:textSize="54sp"
                         android:textStyle="bold"
-                        android:textSize="54sp"/>
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -115,10 +117,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="C"
+                        android:text="C c"
                         android:textColor="#000"
                         android:textSize="54sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
 
 
@@ -130,16 +133,18 @@
                     android:id="@+id/d"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="12dp">
+
                     <TextView
-                        android:gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="D"
+                        android:gravity="center"
+                        android:text="D d"
                         android:textColor="#000"
+                        android:textSize="54sp"
                         android:textStyle="bold"
-                        android:textSize="54sp"/>
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -169,10 +174,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="E"
+                        android:text="E e"
                         android:textColor="#000"
                         android:textSize="54sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
 
 
@@ -184,16 +190,18 @@
                     android:id="@+id/f"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="12dp">
+
                     <TextView
-                        android:gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="F"
+                        android:gravity="center"
+                        android:text="F f"
                         android:textColor="#000"
+                        android:textSize="54sp"
                         android:textStyle="bold"
-                        android:textSize="54sp"/>
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -222,10 +230,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="G"
+                        android:text="G g"
                         android:textColor="#000"
                         android:textSize="54sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
 
 
@@ -237,16 +246,18 @@
                     android:id="@+id/h"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="12dp">
+
                     <TextView
-                        android:gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="H"
+                        android:gravity="center"
+                        android:text="H h"
                         android:textColor="#000"
+                        android:textSize="54sp"
                         android:textStyle="bold"
-                        android:textSize="54sp"/>
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -275,10 +286,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="I"
+                        android:text="I i"
                         android:textColor="#000"
                         android:textSize="54sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
 
 
@@ -290,16 +302,18 @@
                     android:id="@+id/j"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="12dp">
+
                     <TextView
-                        android:gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="J"
+                        android:gravity="center"
+                        android:text="J j"
                         android:textColor="#000"
+                        android:textSize="54sp"
                         android:textStyle="bold"
-                        android:textSize="54sp"/>
+                        app:fontFamily="@font/arbutus_slab" />
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
@@ -329,7 +343,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="K"
+                        android:text="K k"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -350,7 +365,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="L"
+                        android:text="L l"
+                        app:fontFamily="@font/arbutus_slab"
+
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
@@ -383,7 +400,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="M"
+                        app:fontFamily="@font/arbutus_slab"
+                        android:text="M m"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -404,7 +422,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="N"
+                        android:text="N n"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
@@ -437,7 +456,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="O"
+                        android:text="O o"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -458,7 +478,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="P"
+                        android:text="P p"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
@@ -491,7 +512,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="Q"
+                        android:text="Q q"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -512,8 +534,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="R"
+                        android:text="R r"
                         android:textColor="#000"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
                 </android.support.v7.widget.CardView>
@@ -544,7 +567,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="S"
+                        android:text="S s"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -565,7 +589,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="T"
+                        android:text="T t"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
@@ -597,7 +622,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="U"
+                        android:text="U u"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -618,8 +644,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="V"
+                        android:text="V v"
                         android:textColor="#000"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
                 </android.support.v7.widget.CardView>
@@ -650,7 +677,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="W"
+                        android:text="W w"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -671,7 +699,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="X"
+                        android:text="X x"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>
@@ -702,7 +731,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="Y"
+                        android:text="Y y"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textSize="54sp"
                         android:textStyle="bold" />
@@ -712,6 +742,7 @@
                 <android.support.v7.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="120dp"
+                    android:foregroundGravity="center"
                     app:cardElevation="18dp"
                     android:layout_weight="2"
                     android:layout_margin="5dp"
@@ -723,7 +754,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_margin="3dp"
-                        android:text="Z"
+                        android:text="Z z"
+                        app:fontFamily="@font/arbutus_slab"
                         android:textColor="#000"
                         android:textStyle="bold"
                         android:textSize="54sp"/>

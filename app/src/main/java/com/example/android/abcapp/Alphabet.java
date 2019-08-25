@@ -17,57 +17,32 @@ public class Alphabet extends Activity implements View.OnClickListener  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.alphabet_main);
         a=findViewById(R.id.a);
-        a.setBackgroundResource(R.drawable.gradient);
         b=findViewById(R.id.b);
-        b.setBackgroundResource(R.drawable.gradient);
         c=findViewById(R.id.c);
-        c.setBackgroundResource(R.drawable.gradient);
         d=findViewById(R.id.d);
-        d.setBackgroundResource(R.drawable.gradient);
         e=findViewById(R.id.e);
-        e.setBackgroundResource(R.drawable.gradient);
         f=findViewById(R.id.f);
-        f.setBackgroundResource(R.drawable.gradient);
         g=findViewById(R.id.g);
-        g.setBackgroundResource(R.drawable.gradient);
         h=findViewById(R.id.h);
-        h.setBackgroundResource(R.drawable.gradient);
         i=findViewById(R.id.i);
-        i.setBackgroundResource(R.drawable.gradient);
         j=findViewById(R.id.j);
-        j.setBackgroundResource(R.drawable.gradient);
         k=findViewById(R.id.k);
-        k.setBackgroundResource(R.drawable.gradient);
         l=findViewById(R.id.l);
-        l.setBackgroundResource(R.drawable.gradient);
         m=findViewById(R.id.m);
-        m.setBackgroundResource(R.drawable.gradient);
         n=findViewById(R.id.n);
-        n.setBackgroundResource(R.drawable.gradient);
         o=findViewById(R.id.o);
-        o.setBackgroundResource(R.drawable.gradient);
         p=findViewById(R.id.p);
-        p.setBackgroundResource(R.drawable.gradient);
         q=findViewById(R.id.q);
-        q.setBackgroundResource(R.drawable.gradient);
         r=findViewById(R.id.r);
-        r.setBackgroundResource(R.drawable.gradient);
         s=findViewById(R.id.s);
-        s.setBackgroundResource(R.drawable.gradient);
         t=findViewById(R.id.t);
-        t.setBackgroundResource(R.drawable.gradient);
         u=findViewById(R.id.u);
-        u.setBackgroundResource(R.drawable.gradient);
         v=findViewById(R.id.v);
-        v.setBackgroundResource(R.drawable.gradient);
         w=findViewById(R.id.w);
-        w.setBackgroundResource(R.drawable.gradient);
         x=findViewById(R.id.x);
-        x.setBackgroundResource(R.drawable.gradient);
         y=findViewById(R.id.y);
-        y.setBackgroundResource(R.drawable.gradient);
         z=findViewById(R.id.z);
-        z.setBackgroundResource(R.drawable.gradient);
+
         a.setOnClickListener(this);
         b.setOnClickListener(this);
         c.setOnClickListener(this);
@@ -95,10 +70,10 @@ public class Alphabet extends Activity implements View.OnClickListener  {
         y.setOnClickListener(this);
         z.setOnClickListener(this);
 
-        }
+    }
 
 
-public void onClick(View v) {
+    public void onClick(View v) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LayoutInflater factory;
         View view;
@@ -125,7 +100,7 @@ public void onClick(View v) {
         builder.setTitle("B");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.b);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -151,7 +126,7 @@ public void onClick(View v) {
         builder.setTitle("D");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.d);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -164,7 +139,7 @@ public void onClick(View v) {
         builder.setTitle("E");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.e);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -177,7 +152,7 @@ public void onClick(View v) {
         builder.setTitle("F");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.f);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -190,7 +165,7 @@ public void onClick(View v) {
         builder.setTitle("G");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.g);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -203,7 +178,7 @@ public void onClick(View v) {
         builder.setTitle("H");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.h);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -216,7 +191,7 @@ public void onClick(View v) {
         builder.setTitle("I");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.i);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -229,7 +204,7 @@ public void onClick(View v) {
         builder.setTitle("J");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.j);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -242,7 +217,7 @@ public void onClick(View v) {
         builder.setTitle("K");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.k);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -255,7 +230,7 @@ public void onClick(View v) {
         builder.setTitle("L");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.l);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -268,7 +243,7 @@ public void onClick(View v) {
         builder.setTitle("M");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.m);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -281,7 +256,7 @@ public void onClick(View v) {
         builder.setTitle("N");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.n);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -294,7 +269,7 @@ public void onClick(View v) {
         builder.setTitle("O");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.o);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -307,7 +282,7 @@ public void onClick(View v) {
         builder.setTitle("P");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.p);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -320,7 +295,7 @@ public void onClick(View v) {
         builder.setTitle("Q");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.q);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -333,7 +308,7 @@ public void onClick(View v) {
         builder.setTitle("R");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.r);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -346,7 +321,7 @@ public void onClick(View v) {
         builder.setTitle("S");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.s);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -359,7 +334,7 @@ public void onClick(View v) {
         builder.setTitle("T");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.t);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -372,7 +347,7 @@ public void onClick(View v) {
         builder.setTitle("U");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.u);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -385,7 +360,7 @@ public void onClick(View v) {
         builder.setTitle("V");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.v);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -398,7 +373,7 @@ public void onClick(View v) {
         builder.setTitle("W");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.w);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -411,7 +386,7 @@ public void onClick(View v) {
         builder.setTitle("X");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.x);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -424,7 +399,7 @@ public void onClick(View v) {
         builder.setTitle("Y");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.y);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
@@ -437,14 +412,13 @@ public void onClick(View v) {
         builder.setTitle("Z");
         factory = LayoutInflater.from(Alphabet.this);
         view = factory.inflate(R.layout.a, null);
-        image= (ImageView) view.findViewById(R.id.ai);
+        image= view.findViewById(R.id.ai);
         image.setImageResource(R.drawable.z);
         builder.setView(view);
         builder.setNeutralButton("BACK", null);
         builder.show();
         break;
         }
-        }
-
-
-        }
+    }
+}
+//z.setBackgroundResource(R.drawable.gradient);// To set background in cards
